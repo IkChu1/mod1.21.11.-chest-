@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "facing=north,type=single": { "model": "minecraft:block/chest_single", "y": 180 },
+    "facing=south,type=single": { "model": "minecraft:block/chest_single" },
+    "facing=west,type=single":  { "model": "minecraft:block/chest_single", "y": 90 },
+    "facing=east,type=single":  { "model": "minecraft:block/chest_single", "y": 270 },
+    "facing=north,type=left":   { "model": "minecraft:block/chest_left", "y": 180 },
+    "facing=south,type=left":   { "model": "minecraft:block/chest_left" }
+    // ... Продолжите для type=right и всех направлений ...
+  }
+}
