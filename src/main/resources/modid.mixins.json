@@ -1,14 +1,25 @@
 {
-	"required": true,
-	"package": "com.example.mixin",
-	"compatibilityLevel": "JAVA_25",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "schemaVersion": 1,
+  "id": "chestfps",
+  "version": "1.0.0",
+  "name": "ChestFPS+",
+  "description": "Significantly increases FPS by rendering chests as static chunk geometry.",
+  "authors": ["YourName"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chestfps/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.chestfps.ChestFPSMod"
+    ]
+  },
+  "mixins": [
+    "chestfps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  }
 }
